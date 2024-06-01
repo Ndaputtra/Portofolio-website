@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Website</title>
+
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bosicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+<script>
+  window.onscroll = function() {
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+      } else {
+          navbar.classList.remove("sticky");
+      }
+  };
+</script>
+</head>
+<body>
+    <nav id="navbar"  class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand fw-bold " href="#">My Profile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#biodata">Biodata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rfa">Recent Favorite Activity</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cnt">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-section" id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-5">
+                    <img src="image/foto pdh.jpg" class="header-img" alt="">
+                </div>
+                <div class="col-md-6">
+                  <!-- <h2 class="judul 1 fw-semibold">Halo, Saya </h2>
+                  <h1 class="judul 2 title-upercase fw-bold">Ananda Putra Wahyu Riyanto</h1>
+                  <h4 class="judul 3">Mau tau tentang aku, yuk telusuri web ini</h4> -->
+
+                  <h4 class="header-first fw-semibold">Halo Wolrd, I'm</h4>
+                    <h1 class="header-title title-upercase fw-bold">Ananda Putra Wahyu Riyanto</h1>
+                    <div class="container-animation">
+                      <p class="text-animation">Informatics Student</p>
+                    </div>
+                    <!-- <h6 class="header-tiga">Mau tau selengkapnya tentang saya ? <br> yuk telusuri web ini semuanya </h6> -->
+                    <br>
+                    <br>
+                  <a href="#edu" class="header-skill d-inline-flex align-items-center gap-2">
+                    Education <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a>
+                  <br>
+                  <a href="#exp" class="header-skill d-inline-flex align-items-center gap-2">
+                    Experienses <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a>
+                  <br>
+                  <a href="#rfa" class="header-skill d-inline-flex align-items-center gap-2">
+                    Fav Activity <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="nav-link">
+                    <div class="content">
+                      <a href="#aboutme">Get To Know Me</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="aboutme-section" id="aboutme">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-5">
+              <img src="image/foto.jpg" class="aboutme-img" alt="">
+            </div>
+            <div class="col-md-6">
+              <h1 class=" aboutme-title fw-semibold">About Me</h1>
+              <h4 class="aboutme-content">Halo perkenalkan saya Ananda Putra Wahyu Riyanto yang bisa di panggil nanda. Saya lahir di Surabaya pada tanggal 09 Oktober 2003 dan sekarangs aya berumur 20 tahun. Saya menempuh Pendidikan di Surabaya dari mulai SMP Negeri 22 Surabaya, SMA Negeri 18 Surabaya dan sekarang saya sedang menempuh Pendidikan S1 di Universitas Pembangunan Nasional “Veteran” Jawa Timur dengan program studi informatika. Ssya memiliki beberapa hobi yaitu berenang, menedngarkan music, menonton film dan bermain video game. </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="biodata-section" id="biodata">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+              <h1 class=" biodata-title fw-semibold">Biodata</h1>
+              <h4 class="biodata-content">Nama : Ananda Putra Wahyu Riyanto <br>
+                Tempat tanggal lahir : Surabaya, 09 Oktober 2003 <br>
+                Jenis Kelamin : Laki – laki <br> 
+                Agama : Islam <br>
+                No Telp : 089675893879 <br>
+                Alamat : Pondok Maritim Indah Blok Za30 No1 <br> 
+                Hobi : Bermain Video Game, Benerang, Mendenngarkan music dan Menonton film <br>
+                Kewarganegaraan : Indonesia <br>
+                </h4>
+            </div>
+            <div class="col-md-5">
+              <img src="image/foto pantai.jpg" class="biodata-img" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rfa-section" id="rfa">
+        <div class="container">
+          <h2 class="rfa-title">Recent Favorite Activity</h2>
+          <div class="video-wraper">
+            <video controls src="Video/Video Val.mp4" class="rfa-video1"  type="video"></video>
+            <video controls src="Video/video pal.mp4" class="rfa-video2"></video>
+            <video controls src="Video/pubg vidio.mp4" class="rfa-video3"></video>
+            <h5 class="video-title1">VALORANT   PALWORLD  PUBG</h5>
+          </div>
+          <div>
+            <video controls src="Video/video cs.mp4" class="rfa-video4"></video>
+            <video controls src="Video/video tiny.mp4" class="rfa-video3"></video>
+            <video controls src="Video/video gta.mp4" class="rfa-video3"></video>
+            <h5 class="video-title2">CS2  TINYTINA  GTA5</h5>
+          </div>
+        </div>
+      </section>
+
+      <section class="education-section" id="edu">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <h1 class="education-title">Education</h1>
+          <div class="col-md-4">
+            <img src="image/96-SMP_NEGERI_22_SURABAYA.png" class="edu-img1"  alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="image/858-SMAN_18_SURABAYA.png" class="edu-img2"  alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="image/Logo_UPN_Veteran_Jawa_Timur.png" class="edu-img3" alt="">
+          </div>
+          </div>
+          <h5 class="title-sch1">2016 - 2019</h5>
+          <h5 class="title-sch2">2019 - 2022</h5>
+          <h5 class="title-sch3">2022 - Sekarang</h5>
+        </div>
+
+      <section class="experience-section" id="exp">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <h1 class="experience-title">Experience</h1>
+            <div class="col-md-6">
+              <img src="image/exp pdh.jpg" class="exp-img1" alt="">
+            </div>
+            <div class="col-md-6">
+              <img src="image/sertifikat ff.jpg" class="exp-img2" alt="">
+            </div>
+            <h5 class="exp-title1">Himpunan Mahasiwa Informatika <br>Departemen Kominfo</h5>
+            <h5 class="exp-title2">Panitia Fasilkom fest <br> 2022</h5>
+          </div>
+        </div>
+      <section>
+
+        <section class="contact-section" id="cnt">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <h1 class="contact-title fw-bold" >CONTACT</h1>
+              <img src="image/instagram.png" class="cnt-img1" alt="">
+              <img src="image/email.png" class="cnt-img2" alt="">
+              <h5 class="title-img1">@ndaputtra</h5>
+              <h5 class="title-img2">ananda9102003@gmail.com</h5>
+            </div>
+          </div>
+        <section>
+       
+        
+    <script src="boostrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
